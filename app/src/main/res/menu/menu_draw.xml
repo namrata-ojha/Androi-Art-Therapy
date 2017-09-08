@@ -1,0 +1,16 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".DrawActivity">
+
+
+
+    <item android:id="@+id/action_erase" android:title="erase" android:icon="@drawable/erase"
+        android:orderInCategory="200" app:showAsAction="always" />
+
+    <item android:id="@+id/action_brush" android:title="brush" android:icon="@drawable/brush"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/uninstall" android:title="uninstall" android:icon="@drawable/brush"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
